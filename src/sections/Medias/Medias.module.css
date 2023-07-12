@@ -1,0 +1,24 @@
+.wrapper {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 100%;
+    padding-right: 7px;
+    transition: .2s;
+}
+
+.image {
+    width: 50%;
+    padding: 7px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.image:hover, .video:hover {
+    transform: scale(1.05)
+}

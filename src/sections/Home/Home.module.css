@@ -1,0 +1,14 @@
+.section {
+    background: url('../../assets/bg-home.jpg') center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.image {
+    width: 65%;
+}
