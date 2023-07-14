@@ -6,10 +6,13 @@
 
 :root {
   --color-primary: #ff7e20;
+  --color-bg: #000416;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg);
+  color: #fff;
 }
 
 /* Scroll bar */

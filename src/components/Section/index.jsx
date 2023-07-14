@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section = ({ children, className, margin, padding='5rem', flexDirection='column', justifyContent='center', alignItems='center', height='auto' }) => {
+const Section = ({ children, id, className, margin, padding='5rem', flexDirection='column', justifyContent='center', alignItems='center', height='auto' }) => {
     const style = {
         margin,
         padding,
@@ -13,7 +13,7 @@ const Section = ({ children, className, margin, padding='5rem', flexDirection='c
     }
 
     return (
-        <section style={style} className={className}>
+        <section id={id ? id : ''} style={style} className={className}>
             {children}
         </section>
     )
