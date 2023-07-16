@@ -8,8 +8,6 @@ import Moon from '../../assets/medias/moon.jpg'
 
 import Trailler from '../../assets/Automaquiagem.mp4'
 
-import { BsPlayFill } from 'react-icons/bs'
-
 import styles from './Medias.module.css'
 
 const Medias = () => {

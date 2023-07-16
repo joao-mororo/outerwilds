@@ -24,6 +24,24 @@
     margin-top: 5rem;
 }
 
+.infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.released {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .ul {
     list-style: none;
     line-height: 2.5rem;
